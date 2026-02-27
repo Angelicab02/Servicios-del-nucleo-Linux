@@ -2,9 +2,9 @@
 
 # Uso de la memoria RAM
 ## Objetivo
-Crear un servicio gestionado por systemd que registre el uso de la memoria RAM cada 15 segundos en el archivo `/tmp/ram_usage.log`.
 
 Implementar un servidor web usando Python y Flask, ejecutado como servicio gestionado por systemd
+##
 Se crea el programa que leera la Ram cada 15s:
 
 <img width="663" height="219" alt="image" src="https://github.com/user-attachments/assets/692db097-261b-4fe3-8a2a-bd0c8dc108bc" />
