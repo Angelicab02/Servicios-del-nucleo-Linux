@@ -57,7 +57,7 @@ Implementar un servidor web usando Python y Flask, ejecutado como servicio gesti
    
    <img width="976" height="508" alt="image" src="https://github.com/user-attachments/assets/1cf05e95-b5a9-48fd-ba67-975b8bbd4759" />
 
-##Conclusión
+## Conclusión
 
 Se implementaron correctamente los objetivos mediante servicios gestionados por systemd, tanto el servicio de monitoreo de memoria RAM como el servidor web Flask; ambos sistemas se ejecutan en segundo plano y además inician automáticamente al arrancar el sistema. Para el primero, se ejecutó un script en Bash en un sistema para que se ejecutara en segundo plano automáticamente; mientras tanto, el segundo se creó dentro de un entorno virtual para mantener aisladas sus dependencias, igualmente como un servicio para funcionamiento continuo.
 
